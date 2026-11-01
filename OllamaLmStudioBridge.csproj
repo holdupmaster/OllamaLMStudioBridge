@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>OllamaLmStudioBridge</AssemblyName>
+    <RootNamespace>OllamaLmStudioBridge</RootNamespace>
+    
+    <!-- Build options for portable Windows distribution -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>false</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <Description>Bridge Ollama models into LM Studio via symbolic links or hard links</Description>
+    <Version>1.2.0</Version>
+    <Company>Local AI Tools</Company>
+  </PropertyGroup>
+
+</Project>
